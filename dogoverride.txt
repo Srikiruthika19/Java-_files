@@ -1,0 +1,31 @@
+class Dog{
+      public void  eat()
+      {
+         System.out.println("dog is eating");
+      }     
+      public void play()
+      {
+        System.out.println("dog is playing");
+      }
+   }
+class labrador extends Dog{
+       public void eat()
+       {
+        super.eat();
+         System.out.println("labrador is eating");
+       }
+       public void play()
+       {
+        super.play();
+         System.out.println("labrador is playing");
+       }
+   }
+class a{
+
+    public void main (String[]args){
+    labrador l = new labrador();
+     l.eat();
+     l.play();
+  
+   }
+}

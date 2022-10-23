@@ -1,0 +1,42 @@
+HIERARCHICAL  INHERITANCE:
+                      when more than one derived class is derived from single base class is known as hierarchical inheriance
+class Vehicle{
+     void display()
+   {
+     System.out.println("I am from vehicle class");
+  }
+}
+class twowheeler extends Vehicle{
+    void display1()
+   {
+     System.out.println("I am from  twowheeler class");
+   } 
+ }
+class fourwheeler extends Vehicle{
+   void display2()
+  {
+    System.out.println("I am from fourwheeler class");
+  }
+ }
+class hero extends Vehicle{
+  void display3()
+ {
+  System.out.println("I am fron hero class");
+ }
+ }
+ class honda extends Vehicle{
+  void display4()
+ {
+  System.out.println("I am fron honda class");
+ }
+ }
+ class inheritance{
+       public void main (String[]args){
+      honda ho =new honda();
+      ho.display();
+      ho.display1();
+      ho.display2();
+      ho.display3();
+      ho.display4();
+  }
+}
