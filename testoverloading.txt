@@ -1,0 +1,19 @@
+class TestOverloading{
+   private  static void sayHello()
+   {
+       System.out.println("Hello GHF");
+   }
+    private  static void sayHello(int a)
+   { 
+     System.out.println("hello");
+    }
+
+
+   public void main (String[]args){
+   TestOverloading obj = new  TestOverloading ();
+   obj.sayHello();
+   obj.sayHello(10);
+
+ }
+ }     
+    
